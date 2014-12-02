@@ -50,8 +50,9 @@
 }
 .news-article p{
 	margin-top: 20px;
-  color: #696969;
-  font-size: 20px;
+	margin-bottom: 20px;
+   color: #696969;
+   font-size: 20px;
 }
 .news-readmore{
 	color: #b0a590 !important;
@@ -72,7 +73,5 @@
 color: cadetblue;
 }
 .news-article-img img:hover {
-padding: 2px;
-border: 1px solid #ddd;
 box-shadow: 0 0 20px #999 !important;
 }
