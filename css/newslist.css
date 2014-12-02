@@ -50,8 +50,9 @@
 }
 .news-article p{
 	margin-top: 20px;
-  color: #696969;
-  font-size: 20px;
+	margin-bottom: 20px;
+   color: #696969;
+   font-size: 20px;
 }
 .news-readmore{
 	color: #b0a590 !important;
