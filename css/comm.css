@@ -1,0 +1,103 @@
+body {
+	font: 16px/1.5 tahoma,arial,Hiragino Sans GB,\5b8b\4f53;
+}
+.container {
+	width: 980px !important;
+}
+.wmw {
+	min-width: 980px !important;
+}
+.container-wrap {
+	background-color:#f8f8f8; 
+	border-top: 3px solid #4DCF87;
+}
+/*munu 修改样式*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	color: #4DCF87 !important;
+	font-weight: bolder !important;
+	background-color: #fefefe !important;
+	border-bottom: #4DCF87 solid 2px ;
+	border-radius: 0 !important;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #fefefe !important;
+  text-decoration: none !important;
+  color: #4DCF87;
+  font-weight: bolder;
+  border-radius: 0 !important;
+  border-bottom: #4DCF87 solid 2px ;
+}
+.nav > li > a {
+	color: #666;
+	font-weight: bolder !important;
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+.airheader {
+	background:#fefefe;
+	padding-top:30px;
+	padding-left:0px;
+	padding-bottom:30px;
+	padding-right：0px; 
+}
+/*banner*/
+.aircarousel img{
+	height: 570px !important;
+}
+/*清除浮动*/
+.airclear{
+	clear: both;
+}
+/*宽度 100%*/
+.airw{
+	width: 100%;
+}
+.airtext{
+	text-indent: 2em; 
+}
+
+/*footer*/
+.footer {
+	/*background:#3f4145;*/
+	padding-top: 20px;
+  padding-bottom: 30px;
+
+}
+.footer h1{
+	font-size: 16px !important;
+	color: #fff;
+}
+.footer h1 span {
+	border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+.footer p{
+	padding-right: 10px;
+	color: #fff;
+	font-size: 14px;
+
+}
+.footer-friends {
+	margin-top: 30px;
+}
+.footer-friends a{
+ color: #fff;
+ padding-right:36px;
+}
+.footer-copyright {
+	background-color: #282a2c
+}
+.footer-copyright a{
+	color: #fff;
+	border-right: 2px solid #dedede;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+.footer-copyright-last{
+	border-right: none !important;
+}
+.footer-copyright a:hover{
+	color: #dedede;
+	text-decoration: none;
+}
