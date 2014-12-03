@@ -25,7 +25,7 @@ $(document).ready(function() {
                         $("#section1_5").css("margin-top", "-240px");
                         $("#section4_5").css("margin-top", "-240px");
                         $("#section3_6").css("margin-top", "-240px");
-                        $("#footer").css("margin-top", "-240px");
+                        $("#footer").css("margin-top", "-200px");
                     } else if (e.wheelDelta == 120 && index != 5) {
                         $("#fp-nav").show();
                         $("#section1_5").css("margin-top", "0");
@@ -49,7 +49,7 @@ $(document).ready(function() {
                         $("#section1_5").css("margin-top", "-240px");
                         $("#section4_5").css("margin-top", "-240px");
                         $("#section3_6").css("margin-top", "-240px");
-                        $("#footer").css("margin-top", "-240px");
+                        $("#footer").css("margin-top", "-200px");
                     } else if (e.detail == -3 && index != 5) {
                         $("#fp-nav").show();
                         $("#section1_5").css("margin-top", "0");
