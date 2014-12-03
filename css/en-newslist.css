@@ -1,0 +1,9 @@
+/* en_newslist标题修改 */
+.news-title h1{
+	padding-top: 0;
+	color: #696969;
+	width: 660px;
+}
+.time-box {
+	margin-top:17px; 
+}
