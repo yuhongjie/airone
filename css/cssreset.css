@@ -123,6 +123,7 @@ legend {
 .f16{font-size:16px}
 .f18{font-size: 18px}
 .f20{font-size:20px}
+.f30{font-size: 30px;}
 .fb{font-weight:bold}
 .fn{font-weight:normal}
 .t2{text-indent:2em}
@@ -267,4 +268,7 @@ legend {
 .cr000{
   color: #000;
   font-weight: bolder !important;
+}
+.cr4dc{
+    color:#4DCF87;
 }
