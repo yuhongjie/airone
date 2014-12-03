@@ -11,6 +11,9 @@ body {
 	background-color:#fff; 
 	border-top: 3px solid #4DCF87;
 }
+.logo a:hover{
+    text-decoration: none !important;
+}
 /*munu 修改样式*/
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
 	color: #4DCF87 !important;
