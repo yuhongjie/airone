@@ -116,7 +116,6 @@ margin-left: 20%;
 	padding-bottom: 10px;
 	font-size: 20px;
 	font-weight: bolder;
-	width: 90px;
 }
 .air-home-second-title{
    font-size: 14px;
@@ -162,4 +161,8 @@ margin-left: 20%;
 }
 .air-home-con{
 	padding-right: 50px !important;
+}
+.air-banner-img{
+	width: 100% !important;
+	height: 570px !important;
 }
