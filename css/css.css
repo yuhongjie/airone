@@ -34,7 +34,7 @@ body {font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细�
 
 /******indexheader*****/
 /*.indexHeader {height: 60px;line-height: 60px; border-bottom: 1px solid #4b4b4b;position: fixed;width: 100%;z-index: 9999;background: #363636;}*/
-.indexHeader {height: 60px;line-height: 60px;position: fixed;width: 100%;z-index: 9999;}
+.indexHeader {height: 60px;position: fixed;width: 100%;z-index: 9999;}
 .indexHeader1 {height: 60px;line-height: 60px; border-bottom: 1px solid #4b4b4b;position: fixed;width: 100%;z-index: 12;opacity: 0.9;background: #363636;}
 .indexHeader .headerContent {width: 1120px;margin: 0 auto;}
 .indexHeader .headerContent .nav {margin-left: 223px;}

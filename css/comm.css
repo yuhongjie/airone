@@ -1,5 +1,5 @@
 body {
-	font: 16px/1.5 tahoma,arial,Hiragino Sans GB,\5b8b\4f53;
+	font: 16px/1.5 tahoma,arial,Hiragino Sans GB,\5b8b\4f53 !important;
 }
 .container {
 	width: 980px !important;
@@ -9,7 +9,7 @@ body {
 }
 .container-wrap {
 	background-color:#fff; 
-	border-top: 3px solid #4DCF87;
+	/*border-top: 3px solid #4DCF87;*/
 }
 .logo a:hover{
     text-decoration: none !important;
@@ -38,6 +38,7 @@ body {
 	padding: 10px 15px;
 }
 .airheader {
+	border-top: 3px solid #4DCF87;
 	border-bottom: solid 2px rgba(0,0,0,0.5);
 	background:#fefefe;
 	padding-top:30px;
