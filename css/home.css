@@ -137,8 +137,11 @@ margin-left: 20%;
 }
 .air-home-products{
 	width: 300px;
-	height: 120px;
+	height: 150px;
 	margin-top: 10px;
+}
+.air-more{
+	color: #6ebc68 !important;
 }
 .air-more a{
 	color: #6ebc68;
@@ -149,4 +152,14 @@ margin-left: 20%;
 }
 .home-con{
 	background-color: #fff !important;
+}
+.air-news-con{
+	border-left: #6ebc68 solid 3px;
+	padding-left: 10px;
+}
+.air-home-con-border{
+	border-right: 1px solid #6ebc68;
+}
+.air-home-con{
+	padding-right: 50px !important;
 }
