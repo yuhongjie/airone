@@ -17,9 +17,15 @@
     <script src="js/bootstrap.min.js">
     </script>
     <script src="js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="js/jquery.zoomImgRollover.js"></script>
 	<script type="text/javascript">
 		$(function() {
 		  $("img.lazy").lazyload({effect: "slideDown"});
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $(".testimg").zoomImgRollover();
 		});
 	</script>
 </head>
@@ -28,12 +34,12 @@
 		<div class="airheader">
 	  		<div class="airmenu container">
 	  			<div class="logo fl ">
-	  				<a href="cn_index.htms"><span class="f30 cr4dc">Airone</span></a>
-	  			</div>
+				   <a href="en_index.htm"><span class="f30 cr4dc">Airone</span></a>
+			    </div>
 	  			<ul class="nav nav-pills fr" role="tablist">
 		          <li role="presentation"><a href="en_index.htm">Home</a></li>
 		          <li role="presentation" class="active"><a href="en_list_news.htm">News</a></li>
-		          <li role="presentation"><a href="en_article_products.htm">Products</a></li>
+		          <li role="presentation"><a href="en_list_products.htm">Products</a></li>
 		          <li role="presentation"><a href="en_list_technical_support.htm">Technical Support</a></li>
 		          <li role="presentation"><a href="en_list_about_us.htm">About Us</a></li>
 		          <li role="presentation"><a href="en_list_contact_us.htm">Contact Us</a></li>
@@ -53,18 +59,18 @@
 					</div>
 					</div>
 					<div class="news-title news-title-list">
-						<a href="en_article_news.htm"><h1>The air purifier will usher in a universal turmoil?</h1></a>
+						<a href="en_article_news.htm"><h1>Air purifier brand to choose the right, don't choos</h1></a>
 					</div>
 					<div class="airclear"></div>
 				</div>
 				<div class="news-article news-article-img ">
-					<a href="en_article_news.htm">
-						<img class="airw lazy" data-original="images/news4.jpg">
+					<a href="en_article_news.htm" class="news-list-img">
+						<img class="airw lazy testimg"  id="" data-original="images/news4.jpg">
 					</a>
 					<p class="newsdes">
-						November APEC meeting, and really bring to Beijing the rare opportunity to "blue sky", but not for long, just one end, APEC north the winter heating period is entered, the gray haze days stay away again. Although the government also wants to "let the APEC blue become the norm", but the function of haze is not cure haze will also plagued over a long period of time of our lives.
+						Much affected by the cold windy weather, a cooling, troubled days of fog haze dispersed by a blow, recently hit by cooling the air purifier. To choose a suitable air purifier, but the types of air purifier brand on the market is too much, it made the choice is difficult, as long as the understanding of the main approach to purify air purifiers on the market, then according to the using demand will know how to select the air purifier, air purifier which brand is good.
 					</p>
-					<p><a class="news-readmore" href="cn_article_news.htm">Read the details...<span>»</span></a></p>
+					<p><a class="news-readmore" href="en_article_news.htm">Read the details...<span>»</span></a></p>
 				</div>
 			</div>
 			<div class="container news-container">
@@ -77,18 +83,18 @@
 					</div>
 					</div>
 					<div class="news-title news-title-list">
-						<a href="en_article_news.htm"><h1>Authorities decided that the air purifier is radical innovation</h1></a>
+						<a href="en_article_news.htm"><h1>Air purifier brand to choose the right, don't choos</h1></a>
 					</div>
 					<div class="airclear"></div>
 				</div>
 				<div class="news-article news-article-img ">
-					<a href="cn_article_news.htm">
-						<img class="airw lazy" data-original="images/news3.jpg">
+					<a href="en_article_news.htm" class="news-list-img">
+						<img class="airw lazy testimg" data-original="images/news3.jpg">
 					</a>
 					<p class="newsdes">
-						World's air can water heater manufacturer in guangdong finney appliances after three years of the development of high-tech products air purifier, air purification industry in China by 2014, the organization of the national TongJian air purification products, achieve industry alliance set product performance indicators, the highest grade A in domestic high-end consumer demand. In addition, the China construction science research institute inspection center testing proved that...
+						Much affected by the cold windy weather, a cooling, troubled days of fog haze dispersed by a blow, recently hit by cooling the air purifier. To choose a suitable air purifier, but the types of air purifier brand on the market is too much, it made the choice is difficult, as long as the understanding of the main approach to purify air purifiers on the market, then according to the using demand will know how to select the air purifier, air purifier which brand is good.
 					</p>
-					<p><a class="news-readmore" href="cn_article_news.htm">Read the details...<span>»</span></a></p>
+					<p><a class="news-readmore" href="en_article_news.htm">Read the details...<span>»</span></a></p>
 				</div>
 			</div>
 			<div class="container news-container">
@@ -101,35 +107,31 @@
 					</div>
 					</div>
 					<div class="news-title news-title-list">
-						<a href="cn_article_news.htm"><h1>The heating season coming! Air purifier make the room stays wet</h1></a>
+						<a href="en_article_news.htm"><h1>Air purifier brand to choose the right, don't choos</h1></a>
 					</div>
 					<div class="airclear"></div>
 				</div>
 				<div class="news-article news-article-img ">
-					<a href="cn_article_news.htm">
-						<img class="airw lazy" data-original="images/news2.jpg">
+					<a href="en_article_news.htm" class="news-list-img">
+						<img class="airw lazy testimg" data-original="images/news2.jpg">
 					</a>
 					<p class="newsdes">
-						On November 13, sadie telecommunications 】 【 news, the southern minimum temperatures are keeping them in more than 10 °, Beijing lowest temperature is close to zero. Just after the "11" double bachelor call "cold cold cold!!! Go not out of bed", it is reported that Beijing will usher in the heating season on the 15th this month. The temperature decrease, the arrival of the heating season, also means that the annual "dry skin, static friction, nosebleeds" to play again...
+						Much affected by the cold windy weather, a cooling, troubled days of fog haze dispersed by a blow, recently hit by cooling the air purifier. To choose a suitable air purifier, but the types of air purifier brand on the market is too much, it made the choice is difficult, as long as the understanding of the main approach to purify air purifiers on the market, then according to the using demand will know how to select the air purifier, air purifier which brand is good....
 					</p>
-					<p><a class="news-readmore" href="cn_article_news.htm">Read the details...<span>»</span></a></p>
+					<p><a class="news-readmore" href="en_article_news.htm">Read the details...<span>»</span></a></p>
 				</div>
 			</div>
 			<div class="text-center">
-				<p class="news-counter"> 1, a total of 3 pages </p>
+				<p class="news-counter"> 1 a total of 1 pages </p>
 				<ul class="pagination">
 				  <li><a href="#">&laquo;</a></li>
 				  <li><a href="#">1</a></li>
-				  <li><a href="#">2</a></li>
-				  <li><a href="#">3</a></li>
-				  <li><a href="#">4</a></li>
-				  <li><a href="#">5</a></li>
 				  <li><a href="#">&raquo;</a></li>
 				</ul>
 			</div>
 			
 		</div>
-	<!-- footer start -->
+		<!-- footer start -->
 		<div class="footer-copyright pt20">
 	      <div class="container  crfff p20">
 	        <div class="fl">
@@ -137,13 +139,13 @@
 	          <a href="en_list_about_us.htm">About Us</a>
 	          <a class="footer-copyright-last" href="en_list_technical_support.htm">Technical Support</a>
 	        </div>
-	         
-	        <div class="fr">
-	        	Copyright © Beijing new as ICP for intelligent technology co., LTD, Beijing no. 01080592-1 
-	        </div>
-	        <div class="fr pl20 mt10">
+	        <div class="fr pl20">
 	          <a href="cn_index.htm">Chinese</a><a class="footer-copyright-last" href="en_index.htm">English</a>
 	        </div>
+	        <div class="fr">
+	          Copyright ©  京ICP备01080592号-1 
+	        </div>
+	       
 	      </div>
 		</div>
 	  <!-- foonter end -->

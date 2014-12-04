@@ -15,13 +15,31 @@
     </script>
     <script src="js/bootstrap.min.js">
     </script>
+    <script>
+    $(function(){
+      $(".online_service").hover(function(){
+        $(this).animate({width:'160px'});
+      },function(){
+        $(this).animate({width:'40px'});
+      });
+    });
+    </script>
 </head>
 <body>
+<!-- 在线客服 -->
+<div class="online_service" style="z-index:1000;">
+  <ul>
+    <span class="right_bar"></span>
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=908733004&site=qq&menu=yes" class="right_qq" target="_blank"></a>
+    <span class="right_phone">12345678956</span>
+  </ul>
+</div>
+<!--  -->
 	<div class="container-wrap wmw">
 		<div class="airheader">
 			<div class="airmenu container">
 			<div class="logo fl ">
-				<a href="cn_index.htms"><span class="f30 cr4dc">Airone</span></a>
+				<a href="cn_index.htm"><span class="f30 cr4dc">Airone</span></a>
 			</div>
 			<ul class="nav nav-pills fr" role="tablist">
         <li role="presentation" class="active"><a href="cn_index.htm">首页</a></li>
@@ -101,7 +119,7 @@
         </div>
         <div class="col-xs-5 pl70 air-home-con-border">
           <h1 class="air-home-content-title">主营产品</h1>
-          <a href="cn_article_products.htm">
+          <a href="cn_list_products.htm">
             <img class="air-home-products" src="images/home-pro.png">
           </a>
         </div>

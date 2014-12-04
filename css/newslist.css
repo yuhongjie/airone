@@ -74,6 +74,9 @@
 .news-title-list h1:hover {
 color: cadetblue;
 }
-.news-article-img img:hover {
+/*.news-article-img img:hover {
 box-shadow: 0 0 20px #999 !important;
+}*/
+.news-list-img{
+	height: 400px !important;
 }
