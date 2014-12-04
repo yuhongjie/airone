@@ -16,6 +16,17 @@
     <script src="js/bootstrap.min.js">
     </script>
     <script src="js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="js/jquery.zoomImgRollover.js"></script>
+	<script type="text/javascript">
+		$(function() {
+		  $("img.lazy").lazyload({effect: "slideDown"});
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $(".testimg").zoomImgRollover();
+		});
+	</script>
 	<script type="text/javascript">
 		$(function() {
 		  $("img.lazy").lazyload({effect: "slideDown"});
@@ -26,8 +37,8 @@
 	<div class="container-wrap wmw">
 		<div class="airheader">
 			<div class="airmenu container">
-			<div class="logo fl">
-				<span class="f30 cr4dc">Airone</span>
+			<div class="logo fl ">
+				<a href="cn_index.htm"><span class="f30 cr4dc">Airone</span></a>
 			</div>
 			<ul class="nav nav-pills fr" role="tablist">
 			  <li role="presentation"><a href="cn_index.htm">首页</a></li>
@@ -52,16 +63,16 @@
 					</div>
 					</div>
 					<div class="news-title news-title-list">
-						<a href="cn_article_news.htm"><h1>空气净化器会迎来一场普及风暴吗？</h1></a>
+						<a href="cn_article_news.htm"><h1>空气净化器品牌选对的，不要选贵的</h1></a>
 					</div>
 					<div class="airclear"></div>
 				</div>
 				<div class="news-article news-article-img ">
-					<a href="cn_article_news.htm">
-						<img class="airw lazy" data-original="images/news4.jpg">
+					<a href="cn_article_news.htm" class="news-list-img">
+						<img class="airw lazy testimg" data-original="images/news4.jpg">
 					</a>
 					<p class="newsdes">
-						11月APEC的召开，委实给北京带来了难得的“晒蓝天”机会，不过好景不长，APEC刚一结束，北方便进入了冬季取暖期，灰暗的雾霾天再度隔三差五地来袭。尽管政府也希望“让APEC蓝成为常态”，但是治霾并非一朝一夕之功，雾霾还将在很长一段时间内困扰着我们的生活。
+						受寒潮大风天气影响，大部分地区出现降温，困扰多日的雾霾被一吹而散，也给近日热销的空气净化器降降温。要选购一台合适的空气净化器，可是市面上的空气净化器品牌种类太多，这加大了选择难度，只要了解市面上空气净化器的主要净化方式，再根据使用需求就会了解如何选择空气净化器，空气净化器哪个牌子好。
 					</p>
 					<p><a class="news-readmore" href="cn_article_news.htm">阅读详情...<span>»</span></a></p>
 				</div>
@@ -76,18 +87,18 @@
 					</div>
 					</div>
 					<div class="news-title news-title-list">
-						<a href="cn_article_news.htm"><h1>权威机构认定活空气净化器是突破性创新</h1></a>
+						<a href="cn_article_news1.htm"><h1>权威机构认定活空气净化器是突破性创新</h1></a>
 					</div>
 					<div class="airclear"></div>
 				</div>
 				<div class="news-article news-article-img ">
-					<a href="cn_article_news.htm">
-						<img class="airw lazy" data-original="images/news3.jpg">
+					<a href="cn_article_news.htm" class="news-list-img">
+						<img class="airw lazy testimg" data-original="images/news3.jpg">
 					</a>
 					<p class="newsdes">
 						全球头号空气能热水器制造商广东芬尼电器历经三年开发的高科技精品活空气净化器，日前在中国空气净化行业联盟组织的2014年空气净化产品全国统检中，达到行业联盟设置的产品性能最高级A级指标，因而受到国内高端消费者的追捧。此外，经中国建筑科学研究院检验中心检测证明...
 					</p>
-					<p><a class="news-readmore" href="cn_article_news.htm">阅读详情...<span>»</span></a></p>
+					<p><a class="news-readmore" href="cn_article_news1.htm">阅读详情...<span>»</span></a></p>
 				</div>
 			</div>
 			<div class="container news-container">
@@ -100,35 +111,31 @@
 					</div>
 					</div>
 					<div class="news-title news-title-list">
-						<a href="cn_article_news.htm"><h1>供暖季来啦！空气净化器让屋内保持湿润</h1></a>
+						<a href="cn_article_news2.htm"><h1>供暖季来啦！空气净化器让屋内保持湿润</h1></a>
 					</div>
 					<div class="airclear"></div>
 				</div>
 				<div class="news-article news-article-img ">
-					<a href="cn_article_news.htm">
-						<img class="airw lazy" data-original="images/news2.jpg">
+					<a href="cn_article_news.htm" class="news-list-img">
+						<img class="airw lazy testimg" data-original="images/news2.jpg">
 					</a>
 					<p class="newsdes">
 						【赛迪家电讯】11月13日消息，南方最低气温还保持在10°以上时，北京最低气温已经接近零度。刚刚过完“双11”的光棍们直呼“冷！冷！冷！走不出被窝了”，据悉，北京将与本月15日迎来供暖季。气温降低、供暖季的到来，也就意味着，一年一度的“大干皮、静电摩擦、流鼻血”又要上演...
 					</p>
-					<p><a class="news-readmore" href="cn_article_news.htm">阅读详情...<span>»</span></a></p>
+					<p><a class="news-readmore" href="cn_article_news2.htm">阅读详情...<span>»</span></a></p>
 				</div>
 			</div>
 			<div class="text-center">
-				<p class="news-counter"> 第1页 总共3页 </p>
+				<p class="news-counter"> 第1页 总共1页 </p>
 				<ul class="pagination">
 				  <li><a href="#">&laquo;</a></li>
 				  <li><a href="#">1</a></li>
-				  <li><a href="#">2</a></li>
-				  <li><a href="#">3</a></li>
-				  <li><a href="#">4</a></li>
-				  <li><a href="#">5</a></li>
 				  <li><a href="#">&raquo;</a></li>
 				</ul>
 			</div>
 			
 		</div>
-			<!-- footer start -->
+		<!-- footer start -->
 		<div class="footer-copyright pt20">
 	      <div class="container  crfff p20">
 	        <div class="fl">

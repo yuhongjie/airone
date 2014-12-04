@@ -16,13 +16,15 @@
     </script>
     <script src="js/bootstrap.min.js">
     </script>
+    <script type="text/javascript" 
+    src="http://api.map.baidu.com/api?v=2.0&ak=xmyNRRC4grtX6rp4hv0rp7q8"></script>
 </head>
 <body>
 	<div class="container-wrap wmw">
 		<div class="airheader">
 			<div class="airmenu container">
-			<div class="logo fl">
-				<span class="f30 cr4dc">Airone</span>
+			<div class="logo fl ">
+				<a href="cn_index.htm"><span class="f30 cr4dc">Airone</span></a>
 			</div>
 			<ul class="nav nav-pills fr" role="tablist">
 			  <li role="presentation"><a href="cn_index.htm">首页</a></li>
@@ -36,9 +38,7 @@
 		</div>	
 		</div>
 		<!-- header end -->	
-		<div>
-			<img class="img-responsive" src="images/map.jpg">
-		</div>
+		<div id="allmap" class="contactus-map"></div>
 		<div class="news container">
 			<div class="container news-container">
 				<!-- date -->
@@ -58,7 +58,7 @@
 					<p> 区域商务洽询：service@airone-china.net</p>
 					<p>  电子商务洽询：service@airone-china.com</p>
 					<p> 礼品商务洽询：0173@airmate-china.com</p>
-					<p>  住宅电器商务洽询：21491@airmate-china,com</p>
+					<p>  住宅电器商务洽询：21491@airmate-china.com</p>
               </div>
 			</div>
 		</div>
@@ -81,5 +81,40 @@
 		</div>
 	  <!-- foonter end -->
 	</div>
+		<script type="text/javascript">
+		$(function(){
+			var map = new BMap.Map("allmap");
+	    	var point = new BMap.Point(116.400244,39.92556);
+			map.centerAndZoom(point, 10);
+	    	map.enableScrollWheelZoom();   //启用滚轮放大缩小，默认禁用
+	    	map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+			
+			// function myFun(result){
+			// 	var cityName = result.name;
+			// 	map.setCenter(cityName);
+			// }
+			// var myCity = new BMap.LocalCity();
+			// myCity.get(myFun);
+
+			var marker = new BMap.Marker(point);  // 创建标注
+			map.addOverlay(marker);
+			marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+
+			var opts = {
+			  	position : point,    // 指定文本标注所在的地理位置
+			  	offset   : new BMap.Size(20, -20)    //设置文本偏移量
+			}
+			var label = new BMap.Label("北京新视智能科技有限公司",opts);
+			label.setStyle({
+				color : "red",
+				fontSize : "12px",
+				height : "20px",
+				minWidth : "150px",
+				lineHeight : "20px",
+				fontFamily:"微软雅黑"
+			});
+			marker.setLabel(label);
+		});
+	</script>
 </body>
 </html>
