@@ -15,8 +15,26 @@
     </script>
     <script src="js/bootstrap.min.js">
     </script>
+       <script>
+    $(function(){
+      $(".online_service").hover(function(){
+        $(this).animate({width:'160px'});
+      },function(){
+        $(this).animate({width:'40px'});
+      });
+    });
+    </script>
 </head>
 <body>
+      <!-- 在线客服 -->
+    <div class="online_service" style="z-index:1000;">
+      <ul>
+        <span class="right_bar"></span>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=908733004&site=qq&menu=yes" class="right_qq" target="_blank"></a>
+        <span class="right_phone">12345678956</span>
+      </ul>
+    </div>
+    <!--  -->
 	<div class="container-wrap wmw">
 		<div class="airheader">
 			<div class="airmenu container">
