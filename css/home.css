@@ -112,9 +112,10 @@ margin-left: 20%;
 }
 /*new*/
 .air-home-content-title{
+	font-family: "黑体";
+    font-size: 20px;
 	/*border-bottom: green solid 2px;*/
 	padding-bottom: 10px;
-	font-size: 20px;
 	font-weight: bolder;
 }
 .air-home-second-title{
@@ -175,6 +176,7 @@ margin-left: 20%;
 	text-decoration: none !important;
 }
 .air-home-main-h{
+	font-size: 14px !important;
 	font-weight:bold !important;
 	color:#4DCF87 !important;
 }
