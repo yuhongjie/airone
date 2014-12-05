@@ -10,13 +10,32 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel='stylesheet' type='text/css' />
      <link href="css/newslist.css" rel='stylesheet' type='text/css' />
+     <link href="css/intro.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="js/jquery.min.js">
     </script>
     <script src="js/bootstrap.min.js">
     </script>
+       <script>
+    $(function(){
+      $(".online_service").hover(function(){
+        $(this).animate({width:'160px'});
+      },function(){
+        $(this).animate({width:'40px'});
+      });
+    });
+    </script>
 </head>
 <body>
+      <!-- 在线客服 -->
+    <div class="online_service" style="z-index:1000;">
+      <ul>
+        <span class="right_bar"></span>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=908733004&site=qq&menu=yes" class="right_qq" target="_blank"></a>
+        <span class="right_phone">12345678956</span>
+      </ul>
+    </div>
+    <!--  -->
 	<div class="container-wrap wmw">
 		<div class="airheader">
 			<div class="airmenu container">
@@ -40,16 +59,26 @@
 		</div>
 		<div class="news container">
 			<div class="container news-container">
+				<div class="row">
+					<div class="col-xs-6 news-article news-article-img">
+						<p class="newsdes airtext">
+							艾尔克林（天津）环保科技有限公司成立于2014年3月，注册资金200万元，是一家专门致力于空气净化产品研发与制造的环保科技型企业。公司全体员工都具备本科及本科以上学历，其中1人具备高级工程师资质，1人具备MBA工商管理学硕士学位。
+						</p>
+						<p class="newsdes airtext">
+							公司与中国航天科工集团第一研究院102所及国家环境监测实验室签订长期合作协议，其产品将由航天102所提供全面性能检测，从而保证空气净化产品的高端品质，让用户享有中国航天品质的产品及服务。
+						</p>
+					</div>
+					<div class="col-xs-6">
+						<img class="img-responsive intro-co-img" src="images/co.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="news container">
+			<div class="container news-container">
 			    <!-- <h4>关于我们</h4> -->
 				<!-- date -->
 				<div class="news-article news-article-img ">
-					<p class="newsdes airtext">
-						艾尔克林（天津）环保科技有限公司成立于2014年3月，注册资金200万元，是一家专门致力于空气净化产品研发与制造的环保科技型企业。公司全体员工都具备本科及本科以上学历，其中1人具备高级工程师资质，1人具备MBA工商管理学硕士学位。
-					</p>
-					<p class="newsdes airtext">
-						公司与中国航天科工集团第一研究院102所及国家环境监测实验室签订长期合作协议，其产品将由航天102所提供全面性能检测，从而保证空气净化产品的高端品质，让用户享有中国航天品质的产品及服务。
-
-					</p>
 					<h3>项目主要内容：高端家用及商用PM2.5空气净化器研发及生产。</h3>
 					<p><b>主要包括：</b></p>
 					<p class="newsdes">

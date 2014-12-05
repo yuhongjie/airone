@@ -10,13 +10,32 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel='stylesheet' type='text/css' />
      <link href="css/newslist.css" rel='stylesheet' type='text/css' />
+      <link href="css/suport.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="js/jquery.min.js">
     </script>
     <script src="js/bootstrap.min.js">
     </script>
+       <script>
+    $(function(){
+      $(".online_service").hover(function(){
+        $(this).animate({width:'160px'});
+      },function(){
+        $(this).animate({width:'40px'});
+      });
+    });
+    </script>
 </head>
 <body>
+      <!-- 在线客服 -->
+    <div class="online_service" style="z-index:1000;">
+      <ul>
+        <span class="right_bar"></span>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=908733004&site=qq&menu=yes" class="right_qq" target="_blank"></a>
+        <span class="right_phone">12345678956</span>
+      </ul>
+    </div>
+    <!--  -->
 	<div class="container-wrap wmw">
 		<div class="airheader">
 			<div class="airmenu container">
@@ -38,83 +57,167 @@
 		<div>
 			<img class="img-responsive" src="images/pro2.jpg">
 		</div>
-		<div class="news container">
-			<div class="container news-container">
-			    <!-- <h4>技术支持</h4> -->
-				<!-- date -->
-				<div class="news-article news-article-img ">
-				    <h3>产品定位：</h3>
-					<p class="newsdes">
-						航天级的空气净化器
-					</p>
-					<p class="newsdes airtext">
-						AIRONE空气净化器是由Airclean公司自主研发设计的高品质、高效能的空气净化产品，可应用于家庭、办公室、机房等场所，能有效去除空气中的有害物质，帮助企业和家庭实现空气洁净，保障人体健康。
-					</p>
-					<h3>产品介绍：</h3>
-					<p class="newsdes ">
-						Airone<br>
-						加湿功能？对不起，我没有！那不是我的工作。<br>
-						手机控制？对不起，太繁琐！误碰了怎么办？<br>
-						数值显示？对不起，不准确！整个房间都是一样吗？<br>
-						塑料外壳？对不起，我很重！结实耐用是我的品质。<br>
-						对不起，我就是一台航天级空气净化器。<br>
-						航天品质、数据说话
+		<div class="suport-feature-bg">
+			<div class="container pt20">
+				<div class="text-center">
+					<h1>产品特点</h1>
+					<div >
+						<div class="suport-title-line"></div>
+					</div>
+					<p class="mt20">高端家用及商用PM2.5空气净化器研发及生产，打造最实用的空气净化器</p>
+				</div>
+				<div class="row mt50">
+			        <div class="col-xs-4">
+						<h1 class="suport-feature-h1">一键式操作系统</h1>
+						<p  class="surprt-feature-p1">用户只需用手指轻触按键，即可实现各
+	                  项功能之间的切换</p>
+	                  <h1 class="suport-feature-h2">一体化滤材设计</h1>
+						<p class="surprt-feature-p1">用户无需做复杂的滤材安装，只需将一
+						体化滤材装入指定的滤材仓即可，省去
+						可能产生的各种滤材错误安装而导致的
+						不良净化效果</p>
 
-					</p>
-					<h3>产品特点：</h3>
-					<p>高效</p>
-					<p class="newsdes">
-						额定风量：580M2/H
-						超大风量，快速净化室内空气。
-					</p>
-					<p class="newsdes">
-						PM2.5净化率99.99%，PM0.5净化效果99.9%
-                        25cm净化层，远远高于市场5cm左右的普通净化器净化层，有效净化空气中的污染物，出风口0污染。
-
-					</p>
-					<p>
-						CADR：505 M2/H
-						相当于每小时净化适配面积房间8次，高于普通净化器的5次标准，更有效的保持室内空气高清洁度
-					</p>
-					<p>
-						20W额定功率
-						远低于普通净化器功耗，更省电。
-
-					</p>
-				<p>安全</p>
-					<p class="newsdes">
-						全钢一体
-						一体化设计，减小缝隙，防止二次污染；经久耐用，防止儿童误拆。
-					</p>
-					<p class="newsdes">
-						圆弧设计
-						防止磕碰家居，防儿童碰疼
-					</p>
-					<p class="newsdes">
-						超低噪音出风口10cm处噪音为20-50分贝，低于ISO规定的环境噪音指标，夜晚安然入睡
-					</p>
-					<p class="newsdes">
-						无光污染唯一指示灯内凹设计，可贴墙放置，达到O光污染。
-					</p>
-					<p>易用</p>
-					<p class="newsdes">
-						一键操作孩子，老人轻松使用。
-					</p>
-					<p  class="newsdes">
-						滚轮设计室内移动方便，多个房间分别使用，一家一台足以。
-
-					</p>
-					<p  class="newsdes">
-						上门服务服务人员上门更换滤芯，实测净化效果。
-					</p>
-					<p  class="newsdes">
-						经济实惠高品质滤芯仅149元/个，平均每天只有不到1元钱。
-					</p>
-
-              </div>
+					</div>
+					<div class="col-xs-4">
+						<img class="surport-feature-img" src="images/shouye_02.png">
+					</div>
+					<div class="col-xs-4">
+						<h1 class="suport-feature-h3">智能自动控制</h1>
+						<p class="surprt-feature-p2">净化机可为用户提供自动空气检测及制
+						风量自动控制功能。用户只需将机器运
+						转档位调制自动控制档位，即可进入自
+						动控制系统，净化机将根据检测到的空
+						气质量，自动调节运转速度，保持室内
+						空气的洁净</p>
+	                  <h1 class="suport-feature-h4">负离子功能</h1>
+						<p class="surprt-feature-p2">净化机开机运转后，将以每立方厘米600
+						万负离子浓度持续输出，使室内空气更
+						清新</p>
+					</div>
+				</div>
+			
 			</div>
 		</div>
-		
+		<div>
+			<div class="container pt20">
+			<div class="row">
+				<div class="col-xs-4 mt20">
+					<img class="surport-feature-img mt20" src="images/shouye_02.png">
+				</div>
+				<div class="col-xs-8 ">
+					<h1>产品认证</h1>
+					<div class="suport-title-line"></div>
+					<p class="mt20">高端家用及商用PM2.5空气净化器研发及生产，打造最实用的空气净化器</p>
+					<div class="row">
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/rz1.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">RoSH认证</p>
+							</div>
+						</div>
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/star.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">能源之星认证</p>
+							</div>
+						</div>
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/cnas.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">CNAS认证</p>
+							</div>
+						</div>
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/super.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">超级静音</p>
+							</div>
+						</div>
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/three.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">整机质保三年</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		  </div>
+		</div>
+		<div class="suport-feature-bg pb20">
+			<div class="container pt20">
+				<div class="text-center">
+					<h1>产品参数</h1>
+					<div >
+						<div class="suport-title-line"></div>
+					</div>
+					<p class="mt20">高端家用及商用PM2.5空气净化器研发及生产，打造最实用的空气净化器</p>
+				</div>
+				<table class="table table-bordered mt20 suport-cs-table">
+				   <thead>
+				      <tr>
+				         <th>型号</th>
+				         <th>ACF1M25A</th>
+				         <th>CF1M45</th>
+				      </tr>
+				   </thead>
+				   <tbody>
+				      <tr>
+				         <td>额定 电压</td>
+				         <td colspan="2">220V</td>
+				      </tr>
+				      <tr>
+				         <td>额定 频率</td>
+				         <td colspan="2">50HZ</td>
+				      </tr>
+				      <tr>
+				         <td>额定 功率</td>
+				         <td>20W</td>
+				         <td>38W</td>
+				      </tr>
+				        <tr>
+				         <td>额定 风量</td>
+				         <td></td>
+				         <td></td>
+				      </tr>
+				        <tr>
+				         <td>额定 噪音</td>
+				         <td colspan="2"><50dB</td>
+				      </tr>
+				        <tr>
+				         <td>固态污染物 净化率 能等级</td>
+				         <td colspan="2">A级</td>
+				      </tr>
+				      <tr>
+				         <td>适用 面积</td>
+				         <td>25㎡</td>
+				         <td>45㎡</td>
+				      </tr>
+				      <tr>
+				         <td>产品 净重</td>
+				         <td>Pune</td>
+				         <td>411027</td>
+				      </tr>
+				      <tr>
+				         <td>外观尺寸  长x宽x高（mm）</td>
+				         <td colspan="2">400x200x580</td>
+				      </tr>
+				   </tbody>
+				</table>
+			
+			</div>
+		</div>
 		<!-- footer start -->
 		<div class="footer-copyright pt20">
 	      <div class="container  crfff p20">

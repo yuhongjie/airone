@@ -15,8 +15,26 @@
     </script>
     <script src="js/bootstrap.min.js">
     </script>
+       <script>
+    $(function(){
+      $(".online_service").hover(function(){
+        $(this).animate({width:'160px'});
+      },function(){
+        $(this).animate({width:'40px'});
+      });
+    });
+    </script>
 </head>
 <body>
+      <!-- 在线客服 -->
+    <div class="online_service" style="z-index:1000;">
+      <ul>
+        <span class="right_bar"></span>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=908733004&site=qq&menu=yes" class="right_qq" target="_blank"></a>
+        <span class="right_phone">12345678956</span>
+      </ul>
+    </div>
+    <!--  -->
 	<div class="container-wrap wmw">
 		<div class="airheader">
 			<div class="airmenu container">
@@ -54,6 +72,7 @@
 					<p class="newsdes">
 						AIRONE空气净化器是由Airclean公司自主研发设计的高品质、高效能的空气净化产品，可应用于家庭、办公室、机房等场所，能有效去除空气中的有害物质，帮助企业和家庭实现空气洁净，保障人体健康。
 					</p>
+					<img class="img-responsive" src="images/zp.jpg">
 
 					 <h3 class="cr000"> 空调制冷循环设计开发技术员</h3>
 					<p><b>工作内容:</b></p>

@@ -18,8 +18,26 @@
     </script>
     <script type="text/javascript" 
     src="http://api.map.baidu.com/api?v=2.0&ak=xmyNRRC4grtX6rp4hv0rp7q8"></script>
+       <script>
+    $(function(){
+      $(".online_service").hover(function(){
+        $(this).animate({width:'160px'});
+      },function(){
+        $(this).animate({width:'40px'});
+      });
+    });
+    </script>
 </head>
 <body>
+      <!-- 在线客服 -->
+    <div class="online_service" style="z-index:1000;">
+      <ul>
+        <span class="right_bar"></span>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=908733004&site=qq&menu=yes" class="right_qq" target="_blank"></a>
+        <span class="right_phone">12345678956</span>
+      </ul>
+    </div>
+    <!--  -->
 	<div class="container-wrap wmw">
 		<div class="airheader">
 			<div class="airmenu container">
@@ -39,27 +57,29 @@
 		</div>
 		<!-- header end -->	
 		<div id="allmap" class="contactus-map"></div>
-		<div class="news container">
-			<div class="container news-container">
-				<!-- date -->
-				<div class="news-article news-article-img ">
-				    <!-- <h3>产品定位：</h3> -->
-					<h4 class="newsdes">
-					   <b class="contactus-title"><span class="pl10">全国客服热线</span></b>
-					</h4>
-					<p>您可拨打我司服务热线：400-8888-888进行咨询</p>
-					<h4 class="newsdes">
-					   <b class="contactus-title"><span class="pl10">在线客服</span></b>
-					</h4>
-					<p>service@airone-china.net；</p>
-					<h4 class="newsdes">
-					   <b class="contactus-title"><span class="pl10">商用联系</span></b>
-					</h4>
-					<p> 区域商务洽询：service@airone-china.net</p>
-					<p>  电子商务洽询：service@airone-china.com</p>
-					<p> 礼品商务洽询：0173@airmate-china.com</p>
-					<p>  住宅电器商务洽询：21491@airmate-china.com</p>
-              </div>
+		<div class="container">
+			<div class="container contact-body">
+				<div class="row">
+					<div class="col-xs-7">
+						<form role="form">
+							<div class="form-group form-inline">
+						    <label class="sr-only" for="name">name</label>
+						    <input type="text" class="form-control" id="name" placeholder="姓名">
+						    <label class="sr-only" for="e-mail">Email address</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="邮箱">
+						  </div>
+						 <textarea class="form-control" rows="5" placeholder="反馈意见"></textarea>
+						  <button type="button" class="btn btn-info contact-form-btn">发送</button>
+						</form>
+					</div>
+					<div class="col-xs-5 con-right">
+						<h2>联系方式</h2>
+						<p><i class="fa fa-leaf cr4dc pr10"></i>全国客服热线：<em>400-800-588</em></p>
+						<p><i class="fa fa-location-arrow cr4dc pr10"></i>在线客服：<a href="mailto:service@airone-china.net">service@airone-china.net</a></p>
+						<p><i class="fa fa-location-arrow cr4dc pr10"></i>区域商务洽谈：<a href="mailto:service@airone-china.net">service@airone-china.net</a></p>
+						<p><i class="fa fa-location-arrow cr4dc pr10"></i>电子商务洽谈：<a href="mailto:service@airone-china.net">service@airone-china.net</a></p>
+					</div>
+				</div>
 			</div>
 		</div>
 		

@@ -4,3 +4,76 @@
 .contactus-map{
 	 height:410px !important;
 }
+.contact-body {
+ 	margin-top: 25px;
+ 	margin-bottom: 40px;
+ 	font-family: '微软雅黑';
+ }
+ .contact-body button[type="submit"] {
+ 	margin-top: 20px;
+ 	border-radius: 0px;
+ 	background-color: #5FC5E7;
+ 	color: #fff;
+ 	padding:10px;
+ 	width: 70px;
+ 	text-align: center;
+ 	border: 1px solid;
+ }
+ .contact-body button[type="submit"]:hover {
+ 	background-color: #fff;
+ 	border: 2px solid #009DCD;
+ 	color: #009DCD;
+ 	font-size: 20px;
+ 	width: 100px;
+ 	transition: width 0.5s;
+	-moz-transition: width 0.5s;	/* Firefox 4 */
+	-webkit-transition: width 0.5s;	/* Safari 和 Chrome */
+	-o-transition: width 0.5s;	/* Opera */
+ }
+.contact-body input[type]:active,.contact-body input[type]:focus {
+	border: 1px solid #5FC5E7;
+}
+ .contact-body input[type] {
+ 	margin: 15px 0;
+	width: 240px;
+	height: 34px;
+	padding: 20px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #F6F5F5;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	box-shadow: none;
+ }
+ .contact-body input[type='email'] {
+ 	margin-left: 15px;
+ }
+ .contact-body .form-group {
+ 	width: 500px;
+ 	min-width: 500px;
+ }
+  .contact-body textarea {
+  	width: 500px;
+  	border: 1px solid #ccc;
+  	border-radius: 0;
+  	background-color:  #F6F5F5;
+  }
+  .con-right {
+	color: #7B7B7B;
+  }
+  .contact-body h2 {
+  	font-size: 20px;
+  }
+  .contact-body b {
+  	color: #2FAE68;
+  }
+  .contact-body a, .contact-body a:hover {
+  	color: #1A85A8;
+  	text-decoration: none;
+  }
+  .contact-form-btn{
+  	border-radius: 0 !important;
+    margin-top: 30px !important;
+  }

@@ -10,13 +10,32 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel='stylesheet' type='text/css' />
      <link href="css/newslist.css" rel='stylesheet' type='text/css' />
+      <link href="css/suport.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="js/jquery.min.js">
     </script>
     <script src="js/bootstrap.min.js">
     </script>
+       <script>
+    $(function(){
+      $(".online_service").hover(function(){
+        $(this).animate({width:'160px'});
+      },function(){
+        $(this).animate({width:'40px'});
+      });
+    });
+    </script>
 </head>
 <body>
+      <!-- 在线客服 -->
+    <div class="online_service" style="z-index:1000;">
+      <ul>
+        <span class="right_bar"></span>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=908733004&site=qq&menu=yes" class="right_qq" target="_blank"></a>
+        <span class="right_phone">12345678956</span>
+      </ul>
+    </div>
+    <!--  -->
 	<div class="container-wrap wmw">
 		<div class="airheader">
 				<div class="airmenu container">
@@ -38,102 +57,156 @@
 		<div>
 			<img class="img-responsive" src="images/pro2_en.jpg">
 		</div>
-		<div class="news container">
-			<div class="container news-container">
-				<!-- date -->
-				<div class="news-article news-article-img ">
-				    <h3>product positioning：</h3>
-					<p class="newsdes">
-						Aerospace grade air purifier
-					</p>
-					<p class="newsdes">
-						AIRONE air purifier was designed by Airclean company independent research and development of high quality, highly effective air to purify a product, and can be applied to family, office, computer room and other places, can effectively remove harmful substances in the air, help businesses and families to achieve clean air, safeguard human health.
-					</p>
-					<h3>Product Introduction：</h3>
-					<p class="newsdes">
-						Airone<br>
-						Humidifying function? I'm sorry, I didn't!That's not my job.<br>
-						Mobile control? I'm sorry, too complicated!Touched by mistake?<br>
-						Plastic shell?I'm sorry, I'm very heavy!Sturdy is my character.<br>
-						The numerical display?I'm sorry, not accurate!The room is the same?<br>
-						I'm sorry, I am a grade space air purifier.<br>
-						Space quality and data speak.
+				<div class="suport-feature-bg">
+			<div class="container pt20">
+				<div class="text-center">
+					<h1>Product Features</h1>
+					<div >
+						<div class="suport-title-line"></div>
+					</div>
+					<p class="mt20">High-end residential and commercial PM2.5 air purifier research and development and production, to create the most practical air purifier</p>
+				</div>
+				<div class="row mt50">
+			        <div class="col-xs-4">
+						<h1 class="suport-feature-h1">One-click operating system</h1>
+						<p  class="surprt-feature-p1">Users only need a finger touch key, each can be realized Switching between a function</p>
+	                  <h1 class="suport-feature-h2">Integrated design of the filter material</h1>
+						<p class="surprt-feature-p1">Users need to do complicated installation of the filter material, just oneBody is changed into the filter material specified filter material storehouse, saveIncorrect erection may produce all kinds of filter materialAdverse effect</p>
 
-					</p>
-					<h3>Product features：</h3>
-					<p>Efficient</p>
-					<p class="newsdes">
-						Rated air volume: 580 m2 / H
-						Large air volume, fast purify in
-					</p>
-					<h3>Product features：</h3>
-					<p class="newsdes">
-						PM2.5 purification rate 99.99%, 99.9% PM0.5 purification effect
-						25 cm purification layer, about 5 cm is much higher than the market average purifier purify layer, effectively purify the air pollutants, outlet zero pollution.
-
-					</p>
-					<p>
-						CADR：505 M2/H
-						Per hour purify adaptation area room 8 times, 5 times higher than ordinary converters standards, more effective high maintain indoor air cleaner
-					</p>
-					<p>
-						20 w power rating
-						Is far lower than the average power consumption of the purifier, and saves the electricity.
-					</p>
-					<p>Efficient:</p>
-					<p class="newsdes">
-						Rated air volume: 580 m2 / H
-						Large air volume, fast purify indoor air.
-					</p>
-					<p class="newsdes">
-						PM2.5 purification rate 99.99%, 99.9% PM0.5 purification effect
-						25 cm purification layer, about 5 cm is much higher than the market average purifier purify layer, effectively purify the air pollutants, outlet zero pollution.
-
-					</p>
-					<p>
-						CADR：505 M2/H
-						Per hour purify adaptation area room 8 times, 5 times higher than ordinary converters standards, more effective high maintain indoor air cleaner
-					</p>
-					<p>
-						20 w power rating
-						Is far lower than the average power consumption of the purifier, and saves the electricity.
-					</p>
-
-					</p>
-				<p>Safety：</p>
-					<p class="newsdes">
-						Full steel body
-						The integration of design, reduce the gap, prevent secondary pollution;Durable, prevent children open by mistake.
-					</p>
-					<p class="newsdes">
-						The circular arc design
-						To prevent the knock against household, the children tou
-					</p>
-					<p class="newsdes">
-						Ultra low noise outlet at 10 cm noise for 20 to 50 decibels, lower than the ambient noise quota set by the ISO, sleep at night
-					</p>
-					<p class="newsdes">
-						Light pollution is the only light inside concave design, can stick a wall place, achieve O light pollution.
-					</p>
-					<p>Easy to use</p>
-					<p class="newsdes">
-						A key operation of children, the old man easily.
-					</p>
-					<p  class="newsdes">
-						Roller design indoor mobile and convenient, more room, respectively, an a is enough.
-
-					</p>
-					<p  class="newsdes">
-						Door-to-door service service personnel to replace filter element, the measured purification effect
-					</p>
-					<p  class="newsdes">
-						Affordable high quality filter is only 149 yuan/a, less than 1 yuan a day on average.
-					</p>
-
-              </div>
+					</div>
+					<div class="col-xs-4">
+						<img class="surport-feature-img" src="images/shouye_02.png">
+					</div>
+					<div class="col-xs-4">
+						<h1 class="suport-feature-h3">Intelligent automatic control</h1>
+						<p class="surprt-feature-p2">Cleaning machine can provide users with automatic detection and air systemAir flow automatic control function.Users only need to transport machineTurning gear modulation automatic control  </p>
+	                  <h1 class="suport-feature-h4">Ion function</h1>
+						<p class="surprt-feature-p2">Purification machine boot after the operation, to 600 per cubic centimeterContinuous output negative ion concentration, make indoor air morePure and fresh</p>
+					</div>
+				</div>
+			
 			</div>
 		</div>
-		
+		<div>
+			<div class="container pt20">
+			<div class="row">
+				<div class="col-xs-4 mt20">
+					<img class="surport-feature-img mt20" src="images/shouye_02.png">
+				</div>
+				<div class="col-xs-8 ">
+					<h1>Product Certification</h1>
+					<div class="suport-title-line"></div>
+					<p class="mt20">High-end residential and commercial PM2.5 air purifier research and development and production, to create the most practical air purifier</p>
+					<div class="row">
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/rz1.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">RoSH</p>
+							</div>
+						</div>
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/star.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">ENERGY STAR</p>
+							</div>
+						</div>
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/cnas.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">CNAS</p>
+							</div>
+						</div>
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/super.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">Super silence</p>
+							</div>
+						</div>
+						<div class="col-xs-6 mt10">
+							<div class="col-xs-6">
+								<img class="suport-rz-img" src="images/three.png">
+							</div>
+							<div class="col-xs-6">
+								<p class="mt30 f16">Three years warranty</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		  </div>
+		</div>
+		<div class="suport-feature-bg pb20">
+			<div class="container pt20">
+				<div class="text-center">
+					<h1>Product Parameters</h1>
+					<div >
+						<div class="suport-title-line"></div>
+					</div>
+					<p class="mt20">High-end residential and commercial PM2.5 air purifier research and development and production, to create the most practical air purifier</p>
+				</div>
+				<table class="table table-bordered mt20 suport-cs-table">
+				   <thead>
+				      <tr>
+				         <th>MODEL</th>
+				         <th>ACF1M25A</th>
+				         <th>CF1M45</th>
+				      </tr>
+				   </thead>
+				   <tbody>
+				      <tr>
+				         <td>The Rated Voltage</td>
+				         <td colspan="2">220V</td>
+				      </tr>
+				      <tr>
+				         <td>Rated Frequency</td>
+				         <td colspan="2">50HZ</td>
+				      </tr>
+				      <tr>
+				         <td>Rated Power</td>
+				         <td>20W</td>
+				         <td>38W</td>
+				      </tr>
+				        <tr>
+				         <td>The Rated Air Flow</td>
+				         <td></td>
+				         <td></td>
+				      </tr>
+				        <tr>
+				         <td>Rated Noise</td>
+				         <td colspan="2"><50dB</td>
+				      </tr>
+				        <tr>
+				         <td>Solid Pollutants Purification Rate Level</td>
+				         <td colspan="2">A级</td>
+				      </tr>
+				      <tr>
+				         <td>Applicable Area</td>
+				         <td>25㎡</td>
+				         <td>45㎡</td>
+				      </tr>
+				      <tr>
+				         <td>Product Net Weight</td>
+				         <td>Pune</td>
+				         <td>411027</td>
+				      </tr>
+				      <tr>
+				         <td>High appearance size length x width x（mm）</td>
+				         <td colspan="2">400x200x580</td>
+				      </tr>
+				   </tbody>
+				</table>
+			
+			</div>
+		</div>
 		<!-- footer start -->
 		<div class="footer-copyright pt20">
 	      <div class="container  crfff p20">
